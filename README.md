@@ -18,7 +18,7 @@ HealthConnect+ is experiencing a critical patient retention issue with a **74.2%
 ### 2. User Segmentation Results
 Machine learning clustering identified **4 distinct user segments** with varying retention patterns:
 
-![User Segments](visualizations/user_segments/engagement_clusters.png)
+![User_Segments](User_Segmentation/Segment_visuals.png)
 
 ### 3. Critical Retention Drivers
 Feature importance analysis revealed the top factors influencing retention:
