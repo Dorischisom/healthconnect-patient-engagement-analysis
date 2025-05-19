@@ -1,2 +1,3 @@
-# healthconnect-patient-engagement-analysis
-Data analysis project focused on patient engagement and retention for HealthConnect+ digital health platform
+# HealthConnect+ Patient Engagement & Retention Analysis
+
+![Project_Banner](project_banner/Project_Banner.png)
