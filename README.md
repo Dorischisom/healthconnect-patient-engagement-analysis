@@ -142,12 +142,12 @@ engagement patterns, identify churn risk factors, and recommend intervention str
 ### User Segmentation Results
 Machine learning clustering identified **4 distinct user segments** with varying retention patterns:
 
-![User_Segment](User_Segment/Segment_visuals.png)
+![Segment_visuals.png](User_Segment/Segment_visuals.png)
 
 ### Critical Retention Drivers
 Feature importance analysis revealed the top factors influencing retention:
 
-![Feature_Importance](Feature_Importance/Feature_importance2.png)
+![Feature_importance2.png](Feature_Importance/Feature_importance2.png)
 
 ## Recommendations
 
