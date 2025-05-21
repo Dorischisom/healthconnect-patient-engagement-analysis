@@ -76,50 +76,76 @@ engagement patterns, identify churn risk factors, and recommend intervention str
 | device_type | Type of device used (Mobile/Tablet/Desktop) | String |
 | survey_responses | Number of surveys completed | Integer |
 
+## Tools & Technologies
+
+- **Python** - Primary programming language
+- **Pandas** - Data manipulation and analysis
+- **NumPy** - Numerical computations
+- **Matplotlib & Seaborn** - Data visualization
+- **Scikit-learn** - Machine learning for clustering and prediction
+- **Jupyter Notebook** - Interactive development environment
+
+## Analysis Approach
+
+### 1. Exploratory Data Analysis
+- Investigated patterns in engagement metrics
+- Analyzed demographic factors that correlate with engagement
+- Identified trends in health condition impact on platform usage
+
+### 2. Cohort Analysis
+- Grouped users by join date cohorts
+- Tracked retention rates over time
+- Compared engagement patterns across cohorts
+
+### 3. Churn Prediction Modeling
+- Defined churn criteria based on platform inactivity (3+ months)
+- Built predictive models to identify at-risk patients
+- Determined key factors contributing to churn
+
+### 4. User Segmentation
+- Created user segments based on engagement patterns
+- Analyzed health outcomes across segments
+- Developed targeted intervention strategies for each segment
+
+### 5. Seasonal Pattern Analysis
+- Identified seasonal trends in engagement
+- Analyzed usage patterns throughout the year
+- Developed season-specific recommendations
+
 ## Key Findings
 
-### 1. High-Risk Patient Groups
-- **Condition C patients** show the highest churn rate at **82.9%**
-- **Rural patients** are **2.4% more likely** to churn than urban patients
-- **Word-of-mouth referrals** have **5.5% higher churn** than doctor referrals
+### Overall Insights
+- **High Churn Rate**: Overall churn rate is 74.20%, indicating significant retention challenges
+- **Engagement Scoring**: Created an engagement scoring system to categorize patients and predict churn
+  
+### Demographic Patterns
+- **Membership Type Impact**: Standard membership has slightly lower churn (72.84%) compared to Basic (74.86%) and Premium (74.84%)
+- **Location Influence**: Urban patients show lower churn (72.67%) than Suburban (75.08%) and Rural (74.79%) patients
+
+### Health Condition Analysis
+- **Condition C Patients**: Highest churn rate at 82.93%
+- **Condition B Patients**: Lowest churn rate at 69.23%
+
+### Referral Source Impact
+- **Doctor Referrals**: Lowest churn rate (70.97%)
+- **Word of Mouth**: Highest churn rate (76.45%)
+
+### Machine Learning Results
+- Prediction model achieved 72% accuracy in identifying at-risk patients
+- Key predictors include login frequency, session duration, and feature usage diversity
 
 ![Executive_Summary](Executive_Summary/Executive_Summary.png)
 
-### 2. User Segmentation Results
+### User Segmentation Results
 Machine learning clustering identified **4 distinct user segments** with varying retention patterns:
 
 ![User_Segment](User_Segment/Segment_visuals.png)
 
-### 3. Critical Retention Drivers
+### Critical Retention Drivers
 Feature importance analysis revealed the top factors influencing retention:
 
 ![Feature_Importance](Feature_Importance/Feature_importance2.png)
 
-## Business Impact
 
-**Projected Outcomes** from implementing recommended interventions:
-- **24% reduction** in overall churn rate (from 74.2% to 56.4%)
-- **$2.1M annual revenue** retention
-- **15% increase** in patient lifetime value
-- **Enhanced patient outcomes** through improved engagement
-
-## 🛠Methodology
-
-This analysis employed a multi-faceted approach:
-
-1. **Data Preprocessing** - Cleaned and merged patient demographics, health conditions, and engagement metrics
-2. **Exploratory Analysis** - Identified patterns and correlations in patient behavior
-3. **User Segmentation** - K-means clustering and RFM analysis to create actionable segments
-4. **Predictive Modeling** - Random Forest classifier for churn prediction (ROC AUC: 0.78)
-5. **Feature Engineering** - Created composite engagement scores and behavioral indicators
-6. **Intervention Design** - Developed targeted strategies for each user segment
-
-## Technologies Used
-
-- **Python** - pandas, numpy, scikit-learn
-- **Machine Learning** - Random Forest, K-means clustering
-- **Visualization** - matplotlib, seaborn, plotly
-- **Statistical Analysis** - Correlation analysis, RFM modeling
-- **Tools** - Jupyter Notebook, Git
 
 
