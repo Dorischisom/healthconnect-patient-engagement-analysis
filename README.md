@@ -5,9 +5,9 @@
 ## Project Overview
 
 HealthConnect+ is a digital health platform that offers telemedicine services, medication management,
-health tracking, and educational resources. After 3 years of operation, the company is concerned about
+health tracking, and educational resources. The company is concerned about
 patient engagement and retention rates. This project aims to analyze patient data to understand
-engagement patterns, identify churn risk factors, and recommend intervention strategies.
+engagement patterns, identify churn risk factors, and recommend intervention strategies. 
 
 ## Business Objectives
 
