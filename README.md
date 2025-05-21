@@ -16,6 +16,66 @@ engagement patterns, identify churn risk factors, and recommend intervention str
 3. Segment users based on engagement patterns
 4. Recommend data-driven intervention strategies for improving retention
 
+## Data Dictionary
+
+### Patient Demographics (`patient_demographics.csv`)
+
+| Column Name | Description | Data Type |
+|-------------|-------------|-----------|
+| patient_id | Unique identifier for each patient | Integer |
+| age | Age of the patient | Integer |
+| gender | Gender of the patient | String |
+| location | Geographic location type (Urban/Suburban/Rural) | String |
+| insurance_type | Type of insurance coverage | String |
+| join_date | Date when patient joined the platform | Date |
+| membership_type | Level of membership (Basic/Standard/Premium) | String |
+| referral_source | How the patient was referred to the platform | String |
+| education_level | Highest level of education completed | String |
+| income_bracket | Income level category (Low/Medium/High) | String |
+| household_size | Number of people in household | Integer |
+
+### Health Conditions (`health_conditions.csv`)
+
+| Column Name | Description | Data Type |
+|-------------|-------------|-----------|
+| patient_id | Unique identifier for each patient | Integer |
+| health_condition_primary | Main health condition being managed | String |
+| condition_severity | Severity of the condition (Mild/Moderate/Severe) | String |
+| condition_duration_years | Years since diagnosis | Integer |
+| medication_count | Number of medications prescribed | Integer |
+| comorbidities_count | Number of additional health conditions | Integer |
+| chronic_condition | Whether condition is chronic (Yes/No) | String |
+| preventative_care | Whether patient receives preventative care (Yes/No) | String |
+| risk_score | Overall health risk assessment (Low/Medium/High) | String |
+| care_plan_adherence | Level of adherence to care plan | String |
+| last_checkup_date | Date of most recent checkup | Date |
+
+### Engagement Metrics (`engagement_metrics.csv`)
+
+| Column Name | Description | Data Type |
+|-------------|-------------|-----------|
+| patient_id | Unique identifier for each patient | Integer |
+| month | Month of activity data | Integer |
+| year | Year of activity data | Integer |
+| logins_count | Number of times patient logged in | Integer |
+| days_active | Number of days with platform activity | Integer |
+| telehealth_appointments | Number of telehealth visits completed | Integer |
+| articles_read | Number of educational articles viewed | Integer |
+| messages_sent | Number of messages sent to providers | Integer |
+| medication_tracking_days | Days medication tracking was used | Integer |
+| health_metrics_logged | Number of health metrics recorded | Integer |
+| satisfaction_score | User satisfaction rating (0-5) | Float |
+| session_duration_avg | Average session length in minutes | Float |
+| support_requests | Number of support requests made | Integer |
+| feature_usage_count | Number of unique features used | Integer |
+| content_shared | Number of items shared from platform | Integer |
+| medication_reminders_enabled | Whether medication reminders are active (0/1) | Binary |
+| push_notifications_enabled | Whether push notifications are active (0/1) | Binary |
+| email_opens | Number of platform emails opened | Integer |
+| app_version | Version of app being used | Float |
+| device_type | Type of device used (Mobile/Tablet/Desktop) | String |
+| survey_responses | Number of surveys completed | Integer |
+
 ## Key Findings
 
 ### 1. High-Risk Patient Groups
