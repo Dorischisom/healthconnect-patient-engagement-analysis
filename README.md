@@ -130,15 +130,14 @@ engagement patterns, identify churn risk factors, and recommend intervention str
 - **Doctor Referrals**: Lowest churn rate (70.97%)
 - **Word of Mouth**: Highest churn rate (76.45%)
 
+![Executive_Summary](Executive_Summary/Executive_Summary.png)
+
 ### Machine Learning Results
 - Prediction model achieved 73% accuracy in identifying at-risk patients
 - Key predictors include login frequency, session duration, and feature usage diversity
 - The model achieved a ROC AUC score of 0.471, reflecting challenges with the highly imbalanced dataset (74.2% churn rate). While the model excels at identifying churned patients (98% recall), it struggles to correctly identify patients who will stay. This presents an opportunity for future work using balanced sampling techniques or threshold optimization.
 
 ![Screenshot](Screenshot/Screenshot.png)
-
-
-![Executive_Summary](Executive_Summary/Executive_Summary.png)
 
 ### User Segmentation Results
 Machine learning clustering identified **4 distinct user segments** with varying retention patterns:
@@ -149,6 +148,38 @@ Machine learning clustering identified **4 distinct user segments** with varying
 Feature importance analysis revealed the top factors influencing retention:
 
 ![Feature_Importance](Feature_Importance/Feature_importance2.png)
+
+## Recommendations
+
+### 1. Segment-Specific Interventions
+- **For Disengaged Users**: Simplified onboarding redux and quick value demonstration
+- **For Feature Explorers**: Guided feature tours and progress visualization campaigns
+- **For Selective Specialists**: Feature depth expansion and cross-feature integration
+- **For Power Users**: Beta feature access program and health ambassador program
+- **For Condition C Patients**: Specialized support community and targeted content packages
+
+### 2. Seasonal Intervention Strategies
+- **Winter**: Focus on telehealth services and annual health planning
+- **Spring**: Implement health challenges and educational content push
+- **Summer**: Launch activity trackers and family health features
+- **Fall**: Run back-to-routine campaigns and preventative care initiatives
+
+### 3. Feature Enhancement Priorities
+- Improve medication tracking features
+- Enhance telehealth appointment experience
+- Upgrade health metrics visualization
+- Develop interactive educational content
+- Optimize provider communication tools
+
+## Conclusion
+The HealthConnect+ platform shows significant promise, but requires systematic intervention to address the concerning churn rate. By implementing these targeted, data-driven strategies, we can dramatically improve user engagement and retention, particularly among high-risk segments like Condition C patients. With proper execution of this plan, we expect to transform the platform's retention metrics while delivering improved health outcomes for patients.
+
+
+## Contact
+
+For questions or feedback about this analysis, please contact [Doris Chisom](mailto:your.email@dorisogbu16@gmail.com).
+
+
 
 
 
