@@ -131,8 +131,12 @@ engagement patterns, identify churn risk factors, and recommend intervention str
 - **Word of Mouth**: Highest churn rate (76.45%)
 
 ### Machine Learning Results
-- Prediction model achieved 72% accuracy in identifying at-risk patients
+- Prediction model achieved 73% accuracy in identifying at-risk patients
 - Key predictors include login frequency, session duration, and feature usage diversity
+- The model achieved a ROC AUC score of 0.471, reflecting challenges with the highly imbalanced dataset (74.2% churn rate). While the model excels at identifying churned patients (98% recall), it struggles to correctly identify patients who will stay. This presents an opportunity for future work using balanced sampling techniques or threshold optimization.
+
+![Screenshot](Screenshot/Screenshot.png)
+
 
 ![Executive_Summary](Executive_Summary/Executive_Summary.png)
 
