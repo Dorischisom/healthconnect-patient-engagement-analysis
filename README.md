@@ -1,6 +1,6 @@
 # HealthConnect+ Patient Engagement & Retention Analysis
 
-![Project_Banner](project_banner/Project_Banner.png)
+![Project_Banner.png](project_banner/Project_Banner.png)
 
 ## Project Overview
 
@@ -130,14 +130,14 @@ engagement patterns, identify churn risk factors, and recommend intervention str
 - **Doctor Referrals**: Lowest churn rate (70.97%)
 - **Word of Mouth**: Highest churn rate (76.45%)
 
-![Executive_Summary](Executive_Summary/Executive_Summary.png)
+![Executive_Summary.png](Executive_Summary/Executive_Summary.png)
 
 ### Machine Learning Results
 - Prediction model achieved 73% accuracy in identifying at-risk patients
 - Key predictors include login frequency, session duration, and feature usage diversity
 - The model achieved a ROC AUC score of 0.471, reflecting challenges with the highly imbalanced dataset (74.2% churn rate). While the model excels at identifying churned patients (98% recall), it struggles to correctly identify patients who will stay. This presents an opportunity for future work using balanced sampling techniques or threshold optimization.
 
-![Screenshot](Screenshot/Screenshot.png)
+![Screenshot.png](Screenshot/Screenshot.png)
 
 ### User Segmentation Results
 Machine learning clustering identified **4 distinct user segments** with varying retention patterns:
